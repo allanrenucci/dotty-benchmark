@@ -6,7 +6,8 @@ import java.util.concurrent.TimeUnit
 import org.openjdk.jmh.annotations._
 import org.openjdk.jmh.infra.Blackhole
 
-import scala.annotation.internal.scala2compat
+// import scala.annotation.internal.scala2compat
+final class scala2compat extends scala.annotation.StaticAnnotation
 
 object LazyVals {
 
