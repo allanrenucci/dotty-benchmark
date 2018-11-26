@@ -25,3 +25,8 @@ classes/
 .idea
 .idea_modules
 /.worksheet/
+
+# Dotty IDE
+.dotty-ide-dev-port
+.dotty-ide-artifact
+.dotty-ide.json
